@@ -60,7 +60,71 @@ body h1{
     text-align: left;
     margin-left: 40px;
     margin-right: 40px;
+    padding-top: 20px;
+    font-size: large;
 }
-#destacados{
-    display: flex;
+#destacados h2{
+    font-weight: 900px;
+    font-size: 45px;
+    padding-left: 20px;
+}
+#productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre los productos */
+    padding: 20px;
+    justify-items: center; 
+}
+.producto{
+    background-color: #010021; /* Color de fondo para cada producto */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    width: 100%;
+    max-width: 400px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.producto img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.producto ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+.producto li{
+    margin-bottom: 5px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.producto button{
+    background-color: #001567;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 85px;
+    font-weight: 600;
+}
+.producto:hover {
+    transform: scale(1.05); /* Hace que el producto crezca un 5% */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3); /* Agrega una sombra luminosa */
+    background-color: #24244d; /* Cambia ligeramente el fondo */
+}
+.producto button:hover{
+    background-color: #010021;
+}
+footer{
+    height: 50px;
+    background-color: #0a0026;
+}
+footer p{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 600;
 }
