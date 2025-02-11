@@ -112,9 +112,9 @@ body h1{
     font-weight: 600;
 }
 .producto:hover {
-    transform: scale(1.05); /* Hace que el producto crezca un 5% */
-    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3); /* Agrega una sombra luminosa */
-    background-color: #24244d; /* Cambia ligeramente el fondo */
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3); 
+    background-color: #24244d; 
 }
 .producto button:hover{
     background-color: #010021;
