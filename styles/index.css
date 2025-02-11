@@ -7,7 +7,7 @@ header{
     top: 0;
 }
 .menuHeader h1{
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -136,4 +136,6 @@ footer p{
     padding-top: 15px;
     padding-left: 15px;
     font-weight: 600;
+    align-items: center;
+    text-align: center;
 }
