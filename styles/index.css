@@ -1,0 +1,66 @@
+header{
+    width: 100%;
+    height: 12vh;
+    position: fixed !important; 
+    background-color: #0a0026;
+    background-size: auto;
+    top: 0;
+}
+.menuHeader h1{
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.menuHeader ul{
+    font-weight: 100;
+    margin: 20;
+    padding: 0;
+    text-align: right;
+    margin-top: -40px;
+}
+.menuHeader a{
+    color: white !important;
+}
+.menuHeader a:hover{
+    color:#0029cf !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menuHeader li{
+    display: inline;
+    margin-right: 50px;
+}
+body {
+    background-color: #0F0039 !important;
+    color: white !important;
+    padding-top: 82px;
+}
+body h1{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 900px;
+    font-size: 50px;
+}
+#inicio{
+    display: flex;
+    align-items: center;
+}
+
+#inicio img{
+    margin-right: 40px;
+    margin-top: -50px;
+}
+.imgBorder{
+    border: 5px solid hsl(0, 0%, 100%);
+}
+#inicio p{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#destacados{
+    display: flex;
+}
