@@ -33,6 +33,67 @@ header{
     display: inline;
     margin-right: 50px;
 }
+#carritoContenido {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 280px;
+    background-color: #0F0039 !important;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: left;
+    border-radius: 10px;
+}
+#carritoContenido h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px; /* Agrega espacio debajo del título */
+    text-align: center;
+}
+#carritoContenido ul{
+    list-style: none;
+    padding-top: 40px;
+    padding-right: -150px;
+    align-items: left;
+}
+#listaCarrito {
+    list-style: none;
+    padding: 0;
+}
+#listaCarrito li {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: right;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+#listaCarrito button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: -50px;
+    font-size: 18px;
+    color: red;
+}
+#listaCarrito button:hover {
+    transform: scale(1.2);
+}
+#carrito {
+    position: relative;
+    cursor: pointer;
+}
+
+#carrito:hover #carritoContenido {
+    display: block;
+}
+#totalCarrito {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
 body {
     background-color: #0F0039 !important;
     color: white !important;

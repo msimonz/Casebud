@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <title>PageTurner</title>
+    <script src="./scripts/script.js"></script>
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -13,7 +14,15 @@
     <ul>
         <li><a href="anadir.html">Añadir Producto</a></li>
         <li><a href="#destacados">Productos</a></li>
-        <li><img src="./assets/shopping-cart.png" alt="Cart" height="30px"></li>
+        <li id="carrito">
+            <img src="./assets/shopping-cart.png" alt="Cart" height="30px">
+            <div id="carritoContenido">
+                
+                <h2>Carrito de Compras</h2>
+                <ul id="listaCarrito"></ul>
+                <p id="totalCarrito">Total: 0 COP</p>
+            </div>
+        </li>
     </ul>
 </header>
 <hr>
