@@ -37,5 +37,77 @@ header{
 body {
     background-color: #0F0039 !important;
     color: white !important;
-    padding-top: 100px;
+    padding-top: 120px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 400px; 
+    border-radius: 15px;
+    border: 2px solid #002f64;
+    width: 800px; 
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: linear-gradient(to right, #0a0065, #040025);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+form legend {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fila {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 40px; 
+    width: 400px; 
+}
+
+label {
+    width: 750px; 
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left; 
+    padding: 10px;
+}
+
+input {
+    width: 200px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left; 
+}
+button {
+    /*background-color: #007bff;*/
+    color: white;
+    padding: 10px;
+    border:color(from color srgb r g b);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 150px; 
+    display: block; 
+    padding-left: -30px auto;
+} 
+.boton {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.boton button {
+    background-color: #007bff;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 350px; 
+}
+
+button:hover {
+    background-color: #0056b3;
 }

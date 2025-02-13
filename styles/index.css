@@ -46,11 +46,17 @@ header{
     z-index: 1000;
     text-align: left;
     border-radius: 10px;
+    max-height: 700px; 
+    overflow-y: auto; 
 }
 #carritoContenido h2 {
     font-size: 1.5em;
     margin-bottom: 10px; /* Agrega espacio debajo del título */
     text-align: center;
+    border-bottom: 5px solid #ccc;
+    position: sticky;
+    background: #010021;
+    padding: 20px;
 }
 #carritoContenido ul{
     list-style: none;
@@ -91,8 +97,14 @@ header{
 }
 #totalCarrito {
     text-align: right;
-    margin-top: 10px;
     font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    background: #010021;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 5px solid #ccc;
 }
 body {
     background-color: #0F0039 !important;
