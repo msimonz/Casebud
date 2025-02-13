@@ -182,6 +182,8 @@ body h1{
 }
 .producto button:hover{
     background-color: #010021;
+    transform: scale(1.2);
+}
 }
 .nombre{
     font-weight: 1000px;
