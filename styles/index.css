@@ -54,13 +54,13 @@ header{
     margin-bottom: 10px; /* Agrega espacio debajo del título */
     text-align: center;
     border-bottom: 5px solid #ccc;
-    position: sticky;
+    position: fixed;
     background: #010021;
     padding: 20px;
 }
 #carritoContenido ul{
     list-style: none;
-    padding-top: 40px;
+    padding-top: 130px;
     padding-right: -150px;
     align-items: left;
 }
