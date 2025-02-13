@@ -8,6 +8,7 @@ header{
 }
 .menuHeader h1{
     font-weight: 400;
+    font-size: 50px;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -19,7 +20,7 @@ header{
     margin: 20;
     padding: 0;
     text-align: right;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 .menuHeader a{
     color: white !important;
@@ -32,4 +33,9 @@ header{
 .menuHeader li{
     display: inline;
     margin-right: 50px;
+}
+body {
+    background-color: #0F0039 !important;
+    color: white !important;
+    padding-top: 100px;
 }
