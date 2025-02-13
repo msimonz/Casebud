@@ -29,7 +29,6 @@ function agregarAlCarrito(index) {
 function actualizarCarrito() {
     const listaCarrito = document.getElementById("listaCarrito");
     const totalCarrito = document.getElementById("totalCarrito");
-    const carritoContenido = document.getElementById("carritoContenido");
     listaCarrito.innerHTML = "";
     let total = 0;
     if(carrito.length === 0){
