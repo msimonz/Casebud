@@ -102,8 +102,6 @@ header{
     bottom: 0;
     background: #010021;
     padding: 10px;
-    font-weight: bold;
-    text-align: center;
     border-top: 5px solid #ccc;
 }
 body {
@@ -195,7 +193,6 @@ body h1{
 .producto button:hover{
     background-color: #010021;
     transform: scale(1.2);
-}
 }
 .nombre{
     font-weight: 1000px;
