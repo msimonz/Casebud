@@ -38,6 +38,17 @@ body {
     background-color: #0F0039 !important;
     color: white !important;
     padding-top: 120px;
+    display: flex;
+}
+#foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
 }
 form {
     display: flex;
@@ -83,7 +94,7 @@ input {
     text-align: left; 
 }
 button {
-    /*background-color: #007bff;*/
+
     color: white;
     padding: 10px;
     border:color(from color srgb r g b);
@@ -110,4 +121,11 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
 }

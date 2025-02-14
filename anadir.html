@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/anadir.css">
     <title>PageTurner</title>
+    <script src="./scripts/anadir.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <header class="menuHeader">
@@ -31,12 +32,18 @@
                 <label for="Precio">Precio del Libro</label>
                 <input class="align" type="number" placeholder="Precio" name="precio" id="precio">
             </div>
+            <div class="fila">
+                <label for="imagen"> Subir Imagen</label>
+                <input id="imagen" class="align" type="file" accept="image/*"  placeholder="Imagen" name="imagen">
+            </div class="fila">
             <div class="boton">
                 <button type="submit">Guardar</button>
             </div>
-            
         </fieldset>
     </form>
+    <div id="foto">
+        <img id="preview" src="" alt="Vista previa" style="display: none; width: 200px; height: auto; border-radius: 5px; margin-top: 10px;">
+    </div>
 </body>
 
 </html>
